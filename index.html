@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="assets/css/plugin/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/plugin/swiper.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <a href="./index.html" class="logo">
+                                <img src="assets/img/png/logo.png" alt="" class="logo-img">
+                            </a>
+                            <ul class="header-nav d-none d-lg-flex">
+                                <li class="active"><a href="#">Главная</a></li>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                            <div class="header-search">
+                                <div class="position-relative">
+                                    <div class="search">
+                                        <input type="text" class="search__inp" placeholder="Поиск">
+                                        <span class="seach__icon">
+                                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M17.266 18.6963L10.966 12.3963C10.466 12.7963 9.89102 13.113 9.24102 13.3463C8.59102 13.5796 7.89935 13.6963 7.16602 13.6963C5.34935 13.6963 3.81202 13.0673 2.55402 11.8093C1.29535 10.5506 0.666016 9.01296 0.666016 7.19629C0.666016 5.37962 1.29535 3.84196 2.55402 2.58329C3.81202 1.32529 5.34935 0.696289 7.16602 0.696289C8.98268 0.696289 10.5203 1.32529 11.779 2.58329C13.037 3.84196 13.666 5.37962 13.666 7.19629C13.666 7.92962 13.5493 8.62129 13.316 9.27129C13.0827 9.92129 12.766 10.4963 12.366 10.9963L18.666 17.2963L17.266 18.6963ZM7.16602 11.6963C8.41602 11.6963 9.47868 11.259 10.354 10.3843C11.2287 9.50896 11.666 8.44629 11.666 7.19629C11.666 5.94629 11.2287 4.88362 10.354 4.00829C9.47868 3.13362 8.41602 2.69629 7.16602 2.69629C5.91602 2.69629 4.85335 3.13362 3.97802 4.00829C3.10335 4.88362 2.66602 5.94629 2.66602 7.19629C2.66602 8.44629 3.10335 9.50896 3.97802 10.3843C4.85335 11.259 5.91602 11.6963 7.16602 11.6963Z" fill="#34ADC2"/>
+                                            </svg>
+                                        </span>
+                                        <span class="seach__voice">
+                                            <svg width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M7.62064 12.7502C6.78411 12.7502 6.07305 12.4574 5.48748 11.8718C4.9019 11.2863 4.60912 10.5752 4.60912 9.73868V3.71563C4.60912 2.87909 4.9019 2.16804 5.48748 1.58246C6.07305 0.996889 6.78411 0.704102 7.62064 0.704102C8.45718 0.704102 9.16823 0.996889 9.75381 1.58246C10.3394 2.16804 10.6322 2.87909 10.6322 3.71563V9.73868C10.6322 10.5752 10.3394 11.2863 9.75381 11.8718C9.16823 12.4574 8.45718 12.7502 7.62064 12.7502ZM6.6168 19.7771V16.6903C4.87681 16.456 3.43797 15.6781 2.30028 14.3563C1.16259 13.0346 0.59375 11.4954 0.59375 9.73868H2.60143C2.60143 11.1273 3.09097 12.3109 4.07005 13.2893C5.04846 14.2683 6.23199 14.7579 7.62064 14.7579C9.00929 14.7579 10.1932 14.2683 11.1722 13.2893C12.1506 12.3109 12.6398 11.1273 12.6398 9.73868H14.6475C14.6475 11.4954 14.0787 13.0346 12.941 14.3563C11.8033 15.6781 10.3645 16.456 8.62448 16.6903V19.7771H6.6168ZM7.62064 10.7425C7.90506 10.7425 8.14364 10.6461 8.33638 10.4534C8.52845 10.2613 8.62448 10.0231 8.62448 9.73868V3.71563C8.62448 3.4312 8.52845 3.19262 8.33638 2.99989C8.14364 2.80782 7.90506 2.71178 7.62064 2.71178C7.33622 2.71178 7.09797 2.80782 6.90591 2.99989C6.71317 3.19262 6.6168 3.4312 6.6168 3.71563V9.73868C6.6168 10.0231 6.71317 10.2613 6.90591 10.4534C7.09797 10.6461 7.33622 10.7425 7.62064 10.7425Z" fill="#727272"/>
+                                                </svg>
+                                        </span>
+                                    </div>
+                                    <div class="search-box">
+                                        <p class="search-title">Возможно вы ищите:</p>
+                                        <div class="search-offer d-flex align-items-start">
+                                            <img src="assets/img/png/p1.png" alt="" class="offer-img">
+                                            <div class="">
+                                                <p class="offer-name">УЗИ аппарат General Electric Logiq S8</p>
+                                                <div class="status">
+                                                    <img src="assets/img/svg/check-m.svg" alt="">
+                                                    <span>В наличии</span>
+                                                </div>
+                                                <a href="#" class="offer-link">
+                                                    <span>Перейти</span>
+                                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M8.82039 6.14762C8.82039 6.29288 8.76492 6.43812 8.65423 6.54887L5.16914 10.0339C4.94744 10.2556 4.588 10.2556 4.3664 10.0339C4.14479 9.81232 4.14479 9.45295 4.3664 9.23124L7.4502 6.14762L4.36651 3.06398C4.1449 2.84229 4.1449 2.48295 4.36651 2.26137C4.58811 2.03956 4.94755 2.03956 5.16925 2.26137L8.65433 5.74636C8.76505 5.85717 8.82039 6.00241 8.82039 6.14762Z" fill="#495363"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="search-offer d-flex align-items-start">
+                                            <img src="assets/img/png/p1.png" alt="" class="offer-img">
+                                            <div class="">
+                                                <p class="offer-name">УЗИ аппарат General Electric Logiq S8</p>
+                                                <div class="status">
+                                                    <img src="assets/img/svg/check-m.svg" alt="">
+                                                    <span>В наличии</span>
+                                                </div>
+                                                <a href="#" class="offer-link">
+                                                    <span>Перейти</span>
+                                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M8.82039 6.14762C8.82039 6.29288 8.76492 6.43812 8.65423 6.54887L5.16914 10.0339C4.94744 10.2556 4.588 10.2556 4.3664 10.0339C4.14479 9.81232 4.14479 9.45295 4.3664 9.23124L7.4502 6.14762L4.36651 3.06398C4.1449 2.84229 4.1449 2.48295 4.36651 2.26137C4.58811 2.03956 4.94755 2.03956 5.16925 2.26137L8.65433 5.74636C8.76505 5.85717 8.82039 6.00241 8.82039 6.14762Z" fill="#495363"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="search-offer d-flex align-items-start">
+                                            <img src="assets/img/png/p1.png" alt="" class="offer-img">
+                                            <div class="">
+                                                <p class="offer-name">УЗИ аппарат General Electric Logiq S8</p>
+                                                <div class="status">
+                                                    <img src="assets/img/svg/check-m.svg" alt="">
+                                                    <span>В наличии</span>
+                                                </div>
+                                                <a href="#" class="offer-link">
+                                                    <span>Перейти</span>
+                                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M8.82039 6.14762C8.82039 6.29288 8.76492 6.43812 8.65423 6.54887L5.16914 10.0339C4.94744 10.2556 4.588 10.2556 4.3664 10.0339C4.14479 9.81232 4.14479 9.45295 4.3664 9.23124L7.4502 6.14762L4.36651 3.06398C4.1449 2.84229 4.1449 2.48295 4.36651 2.26137C4.58811 2.03956 4.94755 2.03956 5.16925 2.26137L8.65433 5.74636C8.76505 5.85717 8.82039 6.00241 8.82039 6.14762Z" fill="#495363"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        </div>
+                        <button class="connect-us d-none d-lg-flex">
+                            <span>Связаться с нами</span>
+                            <span class="arrow">
+                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.46967 9.71186C0.176777 10.0048 0.176777 10.4796 0.46967 10.7725C0.762563 11.0654 1.23744 11.0654 1.53033 10.7725L0.46967 9.71186ZM10.75 1.24219C10.75 0.827974 10.4142 0.492188 10 0.492188L3.25 0.492187C2.83579 0.492187 2.5 0.827974 2.5 1.24219C2.5 1.6564 2.83579 1.99219 3.25 1.99219H9.25V7.99219C9.25 8.4064 9.58579 8.74219 10 8.74219C10.4142 8.74219 10.75 8.4064 10.75 7.99219L10.75 1.24219ZM1.53033 10.7725L10.5303 1.77252L9.46967 0.711857L0.46967 9.71186L1.53033 10.7725Z" fill="#495363"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="menu-btn d-lg-none">
+                            <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.1875 8.51172C3.1875 7.92522 3.6635 7.44922 4.25 7.44922H29.75C30.0318 7.44922 30.302 7.56116 30.5013 7.76042C30.7006 7.95968 30.8125 8.22993 30.8125 8.51172C30.8125 8.79351 30.7006 9.06376 30.5013 9.26302C30.302 9.46228 30.0318 9.57422 29.75 9.57422H4.25C3.6635 9.57422 3.1875 9.09822 3.1875 8.51172ZM3.1875 25.5117C3.1875 24.9252 3.6635 24.4492 4.25 24.4492H29.75C30.0318 24.4492 30.302 24.5612 30.5013 24.7604C30.7006 24.9597 30.8125 25.2299 30.8125 25.5117C30.8125 25.7935 30.7006 26.0638 30.5013 26.263C30.302 26.4623 30.0318 26.5742 29.75 26.5742H4.25C3.6635 26.5742 3.1875 26.0982 3.1875 25.5117ZM8.85445 17.0117C8.85445 16.4252 9.33045 15.9492 9.91695 15.9492H29.75C30.0318 15.9492 30.302 16.0612 30.5013 16.2604C30.7006 16.4597 30.8125 16.7299 30.8125 17.0117C30.8125 17.2935 30.7006 17.5638 30.5013 17.763C30.302 17.9623 30.0318 18.0742 29.75 18.0742H9.91695C9.33045 18.0742 8.85445 17.5982 8.85445 17.0117Z" fill="white"/>
+                            </svg>
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.458609 16.7152C0.21624 16.9576 0.0800781 17.2863 0.0800781 17.6291C0.0800781 17.9718 0.21624 18.3006 0.458609 18.5429C0.700978 18.7853 1.0297 18.9215 1.37246 18.9215C1.71522 18.9215 2.04395 18.7853 2.28632 18.5429L9.50028 11.3264L16.7155 18.5416C16.9591 18.7769 17.2854 18.9071 17.6241 18.9042C17.9628 18.9012 18.2867 18.7654 18.5262 18.5259C18.7657 18.2864 18.9015 17.9625 18.9045 17.6238C18.9074 17.2851 18.7772 16.9588 18.5419 16.7152L11.3267 9.49998L18.5419 2.28473C18.7841 2.04236 18.9201 1.7137 18.92 1.37106C18.9199 1.02842 18.7837 0.699861 18.5413 0.457664C18.2989 0.215466 17.9703 0.0794688 17.6276 0.0795899C17.285 0.079711 16.9564 0.21594 16.7142 0.45831L9.50028 7.67356L2.28503 0.45831C2.04141 0.223022 1.71514 0.0928295 1.37647 0.0957725C1.03779 0.0987154 0.713828 0.234558 0.474343 0.474044C0.234857 0.713529 0.0990145 1.0375 0.0960716 1.37617C0.0931286 1.71484 0.223321 2.04112 0.458609 2.28473L7.67386 9.49998L0.458609 16.7152Z" fill="white"/>
+                             </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center flex-wrap">
+                        <ul class="header-nav d-lg-none text-center">
+                            <li class="active"><a href="#">Главная</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                        <div class="header-box">
+                            <div class="header-item d-flex align-items-center text-center flex-column justify-content-between">
+                                <div class="item-img">
+                                    <img src="assets/img/png/i1.png" alt="">
+                                </div>
+                                    <a href="#" class="item-text">Оснащение ПИТ <br> и операционных</a>
+                            </div>
+                            <div class="header-item d-flex align-items-center text-center flex-column justify-content-between">
+                                <div class="item-img">
+                                    <img src="assets/img/png/i2.png" alt="">
+                                </div>
+                                    <a href="#" class="item-text">Комплектующие <br>
+                                        для диагностики</a>
+                            </div>
+                            <div class="header-item d-flex align-items-center text-center flex-column justify-content-between">
+                                <div class="item-img">
+                                    <img src="assets/img/png/i3.png" alt="">
+                                </div>
+                                    <a href="#" class="item-text">Ультразвуковые <br> системы и датчики</a>
+                            </div>
+                            <div class="header-item d-flex align-items-center text-center flex-column justify-content-between">
+                                <div class="item-img">
+                                    <img src="assets/img/png/i4.png" alt="">
+                                </div>
+                                    <a href="#" class="item-text">Оборудование <br>
+                                        для ветеринарии</a>
+                            </div>
+                        </div>
+                        <button class="connect-us d-lg-none">
+                            <span>Связаться с нами</span>
+                            <span class="arrow">
+                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.46967 9.71186C0.176777 10.0048 0.176777 10.4796 0.46967 10.7725C0.762563 11.0654 1.23744 11.0654 1.53033 10.7725L0.46967 9.71186ZM10.75 1.24219C10.75 0.827974 10.4142 0.492188 10 0.492188L3.25 0.492187C2.83579 0.492187 2.5 0.827974 2.5 1.24219C2.5 1.6564 2.83579 1.99219 3.25 1.99219H9.25V7.99219C9.25 8.4064 9.58579 8.74219 10 8.74219C10.4142 8.74219 10.75 8.4064 10.75 7.99219L10.75 1.24219ZM1.53033 10.7725L10.5303 1.77252L9.46967 0.711857L0.46967 9.71186L1.53033 10.7725Z" fill="#495363"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="block1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="title-suptext">Лидеры в области <span>здравоохранения</span></h1>
+                        <p class="block1-text">Мы стремимся обеспечить медицинские учреждения по всему миру лучшими медицинскими приборами и решениями.</p>
+                        <div class="swiper swiper-block1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="block1-item item1 d-flex align-items-end">
+                                        <div class="position-relative z-2">
+                                            <p class="item-title">КТ Philips Ingenuity CT на складе</p>
+                                            <p class="item-text">Аппарат в наличии по специальной цене, успейте приобрести</p>
+                                        </div>
+                                        <img src="assets/img/png/block1.1.png" alt="" class="item-img d-none d-lg-block">
+                                        <img src="assets/img/png/block1.1_1.png" alt="" class="item-img d-lg-none">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="block1-item item2 d-flex align-items-end">
+                                       <div class="position-relative z-2">
+                                         <p class="item-title">Philips Lumify</p>
+                                            <p class="item-text">Аппарат в наличии по специальной цене, успейте приобрести</p>
+                                       </div>
+                                       <img src="assets/img/png/block1.2.png" alt="" class="item-img d-none d-lg-block">
+                                       <img src="assets/img/png/block1.2_1.png" alt="" class="item-img d-lg-none">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="block1-item item3 d-flex align-items-end">
+                                        <div class="position-relative z-2">
+                                            <p class="item-title">Philips HeartStart FRx</p>
+                                            <p class="item-text">Аппарат в наличии по специальной цене, успейте приобрести</p>
+                                        </div>
+                                        <img src="assets/img/png/block1.1.png" alt="" class="item-img d-none d-lg-block">
+                                        <img src="assets/img/png/block1.1_1.png" alt="" class="item-img d-lg-none">
+                                    </div>
+                                </div>
+                                <div class="swiper-btns">
+                                     <div class="prev swiper-prev-block1">
+                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                             <path d="M4.29963 9.99995C4.29963 9.64151 4.43649 9.28311 4.70964 9.00983L13.3093 0.410283C13.8563 -0.136761 14.7433 -0.136761 15.2901 0.410283C15.8369 0.957105 15.8369 1.84387 15.2901 2.39095L7.68064 9.99995L15.2898 17.609C15.8366 18.156 15.8366 19.0427 15.2898 19.5895C14.743 20.1368 13.8561 20.1368 13.309 19.5895L4.70937 10.9901C4.43618 10.7166 4.29963 10.3583 4.29963 9.99995Z" fill="#fff"/>
+                                         </svg>
+                                     </div>
+                                     <div class="next swiper-next-block1">
+                                         <svg width="20" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                             <path d="M11.7004 10.0001C11.7004 10.3585 11.5635 10.7169 11.2904 10.9902L2.69072 19.5897C2.14368 20.1368 1.25674 20.1368 0.709921 19.5897C0.163099 19.0429 0.163099 18.1561 0.709921 17.609L8.31936 10.0001L0.710186 2.39102C0.163364 1.84398 0.163364 0.957304 0.710186 0.410524C1.25701 -0.136784 2.14395 -0.136784 2.69099 0.410524L11.2906 9.00994C11.5638 9.28335 11.7004 9.64175 11.7004 10.0001Z" fill="#fff"/>
+                                         </svg>
+                                     </div>
+                                 </div>
+     
+                                 <div class="swiper-pagination-block1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between flex-wrap">
+                        <h2 class="title-text">О компании</h2>
+                        <div class="info-box d-flex justify-content-between flex-wrap align-items-end">
+                            <div class="info">
+                                <h3 class="title-base">Наша цель</h3>
+                                <p class="block2-text">повышение уровня качества
+                                    и доступности медицинской помощи.</p>
+                            </div>
+                            <p class="info block2-text">Нашим клиентам мы предлагаемлучшее медицинское оборудования, а так же комплектующие под заказ.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/img/png/block2-bg.png" alt="" class="block2-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="block3-head d-flex align-items-center">
+                            <a href="#" class="text-nowrap">Оборудование под заказ</a>
+                             <span class="mx-2">/</span>
+                              <a href="#" class="d-flex align-items-center">
+                                <svg width="13" height="13" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.266 18.6963L10.966 12.3963C10.466 12.7963 9.89102 13.113 9.24102 13.3463C8.59102 13.5796 7.89935 13.6963 7.16602 13.6963C5.34935 13.6963 3.81202 13.0673 2.55402 11.8093C1.29535 10.5506 0.666016 9.01296 0.666016 7.19629C0.666016 5.37962 1.29535 3.84196 2.55402 2.58329C3.81202 1.32529 5.34935 0.696289 7.16602 0.696289C8.98268 0.696289 10.5203 1.32529 11.779 2.58329C13.037 3.84196 13.666 5.37962 13.666 7.19629C13.666 7.92962 13.5493 8.62129 13.316 9.27129C13.0827 9.92129 12.766 10.4963 12.366 10.9963L18.666 17.2963L17.266 18.6963ZM7.16602 11.6963C8.41602 11.6963 9.47868 11.259 10.354 10.3843C11.2287 9.50896 11.666 8.44629 11.666 7.19629C11.666 5.94629 11.2287 4.88362 10.354 4.00829C9.47868 3.13362 8.41602 2.69629 7.16602 2.69629C5.91602 2.69629 4.85335 3.13362 3.97802 4.00829C3.10335 4.88362 2.66602 5.94629 2.66602 7.19629C2.66602 8.44629 3.10335 9.50896 3.97802 10.3843C4.85335 11.259 5.91602 11.6963 7.16602 11.6963Z" fill="#fff"/>
+                                </svg>
+                                Поиск комплектующих
+                            </a>
+                        </div>
+                        <div class="block3-box">
+                            <div class="block3-item d-flex flex-column justify-content-between">
+                                <div class="block3-card">
+                                    <div class="card-head">
+                                        <img src="assets/img/svg/dotes.svg" alt="">
+                                        <span>Более 70 позиций</span>
+                                    </div>
+                                    <a href="#" class="card-link">
+                                        <svg width="16" height="16" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.46967 9.71186C0.176777 10.0048 0.176777 10.4796 0.46967 10.7725C0.762563 11.0654 1.23744 11.0654 1.53033 10.7725L0.46967 9.71186ZM10.75 1.24219C10.75 0.827974 10.4142 0.492188 10 0.492188L3.25 0.492187C2.83579 0.492187 2.5 0.827974 2.5 1.24219C2.5 1.6564 2.83579 1.99219 3.25 1.99219H9.25V7.99219C9.25 8.4064 9.58579 8.74219 10 8.74219C10.4142 8.74219 10.75 8.4064 10.75 7.99219L10.75 1.24219ZM1.53033 10.7725L10.5303 1.77252L9.46967 0.711857L0.46967 9.71186L1.53033 10.7725Z" fill="#495363"/>
+                                        </svg>
+                                    </a>
+                                    <img src="assets/img/png/g1.png" alt="" class="card-img">
+                                    <p class="title-base">Оснащение операционных</p>
+                                </div>
+                                
+                                <a href="#" class="view-all">
+                                    <span>Смотреть все</span>
+                                    <span class="arrow">
+                                        <svg width="16" height="16" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.46967 9.71186C0.176777 10.0048 0.176777 10.4796 0.46967 10.7725C0.762563 11.0654 1.23744 11.0654 1.53033 10.7725L0.46967 9.71186ZM10.75 1.24219C10.75 0.827974 10.4142 0.492188 10 0.492188L3.25 0.492187C2.83579 0.492187 2.5 0.827974 2.5 1.24219C2.5 1.6564 2.83579 1.99219 3.25 1.99219H9.25V7.99219C9.25 8.4064 9.58579 8.74219 10 8.74219C10.4142 8.74219 10.75 8.4064 10.75 7.99219L10.75 1.24219ZM1.53033 10.7725L10.5303 1.77252L9.46967 0.711857L0.46967 9.71186L1.53033 10.7725Z" fill="#495363"/>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="block3-item d-flex flex-column">
+                                <div class="block3-card">
+                                    <div class="card-head">
+                                        <img src="assets/img/svg/dotes.svg" alt="">
+                                        <span>Более 120 позиций</span>
+                                    </div>
+                                    <a href="#" class="card-link">
+                                        <svg width="16" height="16" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.46967 9.71186C0.176777 10.0048 0.176777 10.4796 0.46967 10.7725C0.762563 11.0654 1.23744 11.0654 1.53033 10.7725L0.46967 9.71186ZM10.75 1.24219C10.75 0.827974 10.4142 0.492188 10 0.492188L3.25 0.492187C2.83579 0.492187 2.5 0.827974 2.5 1.24219C2.5 1.6564 2.83579 1.99219 3.25 1.99219H9.25V7.99219C9.25 8.4064 9.58579 8.74219 10 8.74219C10.4142 8.74219 10.75 8.4064 10.75 7.99219L10.75 1.24219ZM1.53033 10.7725L10.5303 1.77252L9.46967 0.711857L0.46967 9.71186L1.53033 10.7725Z" fill="#495363"/>
+                                        </svg>
+                                    </a>
+                                    <img src="assets/img/png/g2.png" alt="" class="card-img">
+                                    <p class="title-base">Ультразвуковые системы и датчики</p>
+                                </div>
+                                <div class="block3-card">
+                                    <div class="card-head">
+                                        <img src="assets/img/svg/dotes.svg" alt="">
+                                        <span>Более 120 позиций</span>
+                                    </div>
+                                    <a href="#" class="card-link">
+                                        <svg width="16" height="16" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.46967 9.71186C0.176777 10.0048 0.176777 10.4796 0.46967 10.7725C0.762563 11.0654 1.23744 11.0654 1.53033 10.7725L0.46967 9.71186ZM10.75 1.24219C10.75 0.827974 10.4142 0.492188 10 0.492188L3.25 0.492187C2.83579 0.492187 2.5 0.827974 2.5 1.24219C2.5 1.6564 2.83579 1.99219 3.25 1.99219H9.25V7.99219C9.25 8.4064 9.58579 8.74219 10 8.74219C10.4142 8.74219 10.75 8.4064 10.75 7.99219L10.75 1.24219ZM1.53033 10.7725L10.5303 1.77252L9.46967 0.711857L0.46967 9.71186L1.53033 10.7725Z" fill="#495363"/>
+                                        </svg>
+                                    </a>
+                                    <img src="assets/img/png/g3.png" alt="" class="card-img">
+                                    <p class="title-base">Оборудование
+                                        для ветеринарных клиник</p>
+                                </div>
+                            </div>
+                            <div class="block3-item">
+                                <div class="block3-card">
+                                    <div class="card-head">
+                                        <img src="assets/img/svg/dotes.svg" alt="">
+                                        <span>Более 450 позиций</span>
+                                    </div>
+                                    <a href="#" class="card-link">
+                                        <svg width="16" height="16" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.46967 9.71186C0.176777 10.0048 0.176777 10.4796 0.46967 10.7725C0.762563 11.0654 1.23744 11.0654 1.53033 10.7725L0.46967 9.71186ZM10.75 1.24219C10.75 0.827974 10.4142 0.492188 10 0.492188L3.25 0.492187C2.83579 0.492187 2.5 0.827974 2.5 1.24219C2.5 1.6564 2.83579 1.99219 3.25 1.99219H9.25V7.99219C9.25 8.4064 9.58579 8.74219 10 8.74219C10.4142 8.74219 10.75 8.4064 10.75 7.99219L10.75 1.24219ZM1.53033 10.7725L10.5303 1.77252L9.46967 0.711857L0.46967 9.71186L1.53033 10.7725Z" fill="#495363"/>
+                                        </svg>
+                                    </a>
+                                    <img src="assets/img/png/g4.png" alt="" class="card-img">
+                                    <p class="title-base">Комплектующие
+                                        для диагностического оборудования</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block4">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <h2 class="title-text">Популярные товары</h2>
+                        <div class="swiper swiper-block4">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="block4-card">
+                                        <div class="d-flex flex-sm-column align-items-sm-center">
+                                            <a href="#" class="d-flex justify-content-center">
+                                                <img src="assets/img/png/p1.png" alt="" class="card-img">
+                                            </a>
+                                            <div class="">
+                                                <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
+                                                <div class="status">
+                                                    <img src="assets/img/svg/check-m.svg" alt="">
+                                                    <span>В наличии</span>
+                                                </div>
+                                                <div class="card-info">
+                                                    <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
+                                                    <button class="info-btn">
+                                                        <span>Читать еще</span>
+                                                        <img src="assets/img/svg/down.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+                                        <button class="request-price">
+                                            <span>Запросить цену</span>
+                                            <span class="arrow">
+                                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="block4-card">
+                                        <div class="d-flex flex-sm-column align-items-sm-center">
+                                            <a href="#" class="d-flex justify-content-center">
+                                                <img src="assets/img/png/p1.png" alt="" class="card-img">
+                                            </a>
+                                            <div class="">
+                                                <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
+                                                <div class="status">
+                                                    <img src="assets/img/svg/check-m.svg" alt="">
+                                                    <span>В наличии</span>
+                                                </div>
+                                                <div class="card-info">
+                                                    <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
+                                                    <button class="info-btn">
+                                                        <span>Читать еще</span>
+                                                        <img src="assets/img/svg/down.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+                                        <button class="request-price">
+                                            <span>Запросить цену</span>
+                                            <span class="arrow">
+                                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="block4-card">
+                                        <div class="d-flex flex-sm-column align-items-sm-center">
+                                            <a href="#" class="d-flex justify-content-center">
+                                                <img src="assets/img/png/p1.png" alt="" class="card-img">
+                                            </a>
+                                            <div class="">
+                                                <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
+                                                <div class="status">
+                                                    <img src="assets/img/svg/check-m.svg" alt="">
+                                                    <span>В наличии</span>
+                                                </div>
+                                                <div class="card-info">
+                                                    <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
+                                                    <button class="info-btn">
+                                                        <span>Читать еще</span>
+                                                        <img src="assets/img/svg/down.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+                                        <button class="request-price">
+                                            <span>Запросить цену</span>
+                                            <span class="arrow">
+                                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="block4-card">
+                                        <div class="d-flex flex-sm-column align-items-sm-center">
+                                            <a href="#" class="d-flex justify-content-center">
+                                                <img src="assets/img/png/p1.png" alt="" class="card-img">
+                                            </a>
+                                            <div class="">
+                                                <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
+                                                <div class="status">
+                                                    <img src="assets/img/svg/check-m.svg" alt="">
+                                                    <span>В наличии</span>
+                                                </div>
+                                                <div class="card-info">
+                                                    <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
+                                                    <button class="info-btn">
+                                                        <span>Читать еще</span>
+                                                        <img src="assets/img/svg/down.svg" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+                                        <button class="request-price">
+                                            <span>Запросить цену</span>
+                                            <span class="arrow">
+                                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column flex-xl-row justify-content-between">
+                        <h2 class="title-text">Наши преимущества</h2>
+                        <div class="block5-box d-flex flex-column flex-md-row justify-content-between">
+                            <div class="block5-item">
+                                <img src="assets/img/svg/f1.svg" alt="" class="item-icon">
+                                <h6 class="item-title">Своевременная <span>доставка</span></h6>
+                                <p class="item-text">Гарантируем, что медицинские приборы будут доставлены в срок</p>
+                            </div>
+                            <div class="block5-item">
+                                <img src="assets/img/svg/f2.svg" alt="" class="item-icon">
+                                <h6 class="item-title">Квалифицированный  <span>персонал</span></h6>
+                                <p class="item-text">Специализируюем персонал на обращении с деликатными медицинскими приборами.</p>
+                            </div>
+                            <div class="block5-item">
+                                <img src="assets/img/svg/f3.svg" alt="" class="item-icon">
+                                <h6 class="item-title">Соблюдаем  <span>стандарты</span></h6>
+                                <p class="item-text">Соответствия при транспортировке медицинских изделий.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center justify-content-between flex-wrap">
+                        <h2 class="title-text">Оставьте заявку <br>
+                            и мы с вами свяжемся</h2>
+                            <form class="block6-form d-flex justify-content-between flex-wrap">
+                                <div class="input-box">
+                                    <input type="text" class="form__inp" id="name" name="Имя" placeholder="Ваше имя">
+                                    <small></small>
+                                    <div class="test">
+                                        <img src="assets/img/svg/success.svg" alt="">
+                                        <img src="assets/img/svg/error.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" class="form__inp" id="phone" name="Телефон" placeholder="Ваш телефон" onkeypress='return event.charCode >= 43 && event.charCode <= 57'>
+                                    <small></small>
+                                    <div class="test">
+                                        <img src="assets/img/svg/success.svg" alt="">
+                                        <img src="assets/img/svg/error.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="check-box d-flex align-items-center">
+                                    <input type="checkbox" id="check1" value="Я хочу получать рассылку" class="check__inp">
+                                    <p>Принимаю условия <a href="#">пользовательского соглашения</a></p>
+                                </div>
+                                <button class="form-btn" type="button">
+                                    <span>Отправить</span>
+                                    <span class="arrow">
+                                        <svg width="15" height="15" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.46967 9.71186C0.176777 10.0048 0.176777 10.4796 0.46967 10.7725C0.762563 11.0654 1.23744 11.0654 1.53033 10.7725L0.46967 9.71186ZM10.75 1.24219C10.75 0.827974 10.4142 0.492188 10 0.492188L3.25 0.492187C2.83579 0.492187 2.5 0.827974 2.5 1.24219C2.5 1.6564 2.83579 1.99219 3.25 1.99219H9.25V7.99219C9.25 8.4064 9.58579 8.74219 10 8.74219C10.4142 8.74219 10.75 8.4064 10.75 7.99219L10.75 1.24219ZM1.53033 10.7725L10.5303 1.77252L9.46967 0.711857L0.46967 9.71186L1.53033 10.7725Z" fill="#495363"/>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between align-items-start flex-wrap">
+                        <div class="footer-box d-flex flex-wrap">
+                            <a href="./index.html" class="logo">
+                                <img src="assets/img/png/logo.png" alt="" class="logo-img">
+                            </a>
+                            <div class="footer-item">
+                                <p class="item-title">Информация</p>
+                                <ul class="footer-nav">
+                                    <li><a href="#">Оборудование</a></li>
+                                    <li><a href="#">Ультрозвуковые датчики</a></li>
+                                    <li><a href="#">Комплектующие</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-item">
+                                <p class="item-title">Контакты</p>
+                                <ul class="footer-nav">
+                                    <li>+7 000 000 00 00</li>
+                                    <li>
+                                        <img src="assets/img/svg/loc.svg" alt="">
+                                        г. Москва, проспект Гашека, строение 3
+                                    </li>
+                                    <li>
+                                        <img src="assets/img/svg/email.svg" alt="">
+                                        pochta@pochta.ru
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="connect-us">
+                            <span>Связаться с нами</span>
+                            <span class="arrow">
+                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.46967 9.71186C0.176777 10.0048 0.176777 10.4796 0.46967 10.7725C0.762563 11.0654 1.23744 11.0654 1.53033 10.7725L0.46967 9.71186ZM10.75 1.24219C10.75 0.827974 10.4142 0.492188 10 0.492188L3.25 0.492187C2.83579 0.492187 2.5 0.827974 2.5 1.24219C2.5 1.6564 2.83579 1.99219 3.25 1.99219H9.25V7.99219C9.25 8.4064 9.58579 8.74219 10 8.74219C10.4142 8.74219 10.75 8.4064 10.75 7.99219L10.75 1.24219ZM1.53033 10.7725L10.5303 1.77252L9.46967 0.711857L0.46967 9.71186L1.53033 10.7725Z" fill="#495363"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between justify-content-lg-start">
+                        <a href="#">Все права защищены</a>
+                        <a href="#">Пользовательское соглашение</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="popUp popUp-thanks d-none">
+        <div class="popUp-content thanks text-center">
+            <div class="popUp-close">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.458609 16.7152C0.21624 16.9576 0.0800781 17.2863 0.0800781 17.6291C0.0800781 17.9718 0.21624 18.3006 0.458609 18.5429C0.700978 18.7853 1.0297 18.9215 1.37246 18.9215C1.71522 18.9215 2.04395 18.7853 2.28632 18.5429L9.50028 11.3264L16.7155 18.5416C16.9591 18.7769 17.2854 18.9071 17.6241 18.9042C17.9628 18.9012 18.2867 18.7654 18.5262 18.5259C18.7657 18.2864 18.9015 17.9625 18.9045 17.6238C18.9074 17.2851 18.7772 16.9588 18.5419 16.7152L11.3267 9.49998L18.5419 2.28473C18.7841 2.04236 18.9201 1.7137 18.92 1.37106C18.9199 1.02842 18.7837 0.699861 18.5413 0.457664C18.2989 0.215466 17.9703 0.0794688 17.6276 0.0795899C17.285 0.079711 16.9564 0.21594 16.7142 0.45831L9.50028 7.67356L2.28503 0.45831C2.04141 0.223022 1.71514 0.0928295 1.37647 0.0957725C1.03779 0.0987154 0.713828 0.234558 0.474343 0.474044C0.234857 0.713529 0.0990145 1.0375 0.0960716 1.37617C0.0931286 1.71484 0.223321 2.04112 0.458609 2.28473L7.67386 9.49998L0.458609 16.7152Z" fill="#49536366"/>
+                </svg>
+            </div>
+            <h2 class="popUp-title">Спасибо!</h2>
+            <p class="thanks-text">Ваша заявка отправлена, менеджер свяжется с вами в течении 15 минут.</p>
+        </div>
+    </div>
+    
+
+    <script src="assets/js/plugin/swiper.js"></script>
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/info.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/popUp.js"></script>
+</body>
+</html>
