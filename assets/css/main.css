@@ -530,6 +530,10 @@ header .clickedBtn svg:last-child {
   display: block;
 }
 
+.single-product-cover .img-responsive {
+  max-width: 266px !important;
+}
+
 main .block1 {
   padding: 56px 0 48px;
 }
@@ -545,7 +549,7 @@ main .block1 .swiper-block1 {
   position: relative;
 }
 main .block1 .swiper-block1 .block1-item {
-  background-image: linear-gradient(to right, #51b7cb, #3da8c9, #3299c5, #3289c0, #3d79b7);
+  background-image: linear-gradient(to left, #51b7cb, #3da8c9, #3299c5, #3289c0, #3d79b7);
   width: 100%;
   height: 382px;
   border-radius: 50px;
@@ -1031,6 +1035,11 @@ main .block4_products .products-box {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 19px;
 }
+main .block4_card {
+  padding: 60px 0;
+  margin-top: 75px;
+  border-radius: 50px 50px 0 0;
+}
 main .block7 .block7-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1228,6 +1237,8 @@ main .card-page .card-info .info-link span {
 }
 main .card-page .card-info .form-btn {
   width: 487px;
+  color: #fff;
+  border: none;
 }
 main .card-page .characteristics {
   margin: 40px 0;
@@ -1485,20 +1496,24 @@ footer .footer-bottom a:first-child {
   fill-opacity: 1;
 }
 
-.popUp-form .popUp-content {
+.popUp-form .popUp-content,
+.popUp-connect .popUp-content {
   max-width: 587px;
   background: #fff;
   border-radius: 50px;
   padding: 80px 50px 50px;
   margin: 20px auto;
 }
-.popUp-form .form-btn {
+.popUp-form .form-btn,
+.popUp-connect .form-btn {
   width: 100%;
 }
-.popUp-form .form-btn .arrow {
+.popUp-form .form-btn .arrow,
+.popUp-connect .form-btn .arrow {
   min-width: 25px;
 }
-.popUp-form .check-box {
+.popUp-form .check-box,
+.popUp-connect .check-box {
   margin: 24px 0;
 }
 

@@ -6,8 +6,7 @@ const userName = document.getElementById('fio'),
       maxnufacturer = document.getElementById('maxnufacturer'),
       model = document.getElementById('model'),
       description = document.getElementById('description'),
-      submitBtn = document.querySelector('.popUp-form .form-btn'),
-      popUpThank = document.querySelector('.popUp-thanks');
+      submitBtn = document.querySelector('.popUp-form .form-btn');
 
 
 submitBtn.addEventListener('click', () => {
@@ -93,22 +92,3 @@ function functionkInputs() {
         description.nextElementSibling.classList.add('success');
     }
 }
-
-
-// validate
-function setErrorFor(input, border) {
-    input.style.border = border
-    input.parentElement.children[2].classList.add('error');
-    input.parentElement.children[2].classList.remove('success');
-}
-    
-function setSuccesFor(input) {
-    input.style.border = `2px solid #34ADC2`;
-    input.parentElement.children[2].classList.add('success');
-    input.parentElement.children[2].classList.remove('error');
-}
-
-
-function isEmail(email) {
-    return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
-}    

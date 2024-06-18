@@ -1,8 +1,7 @@
 
 const user_name = document.getElementById('name'),
       user_phone = document.getElementById('phone'),
-      submit_btn = document.querySelector('.block6-form .form-btn'),
-      popUpThank = document.querySelector('.popUp-thanks');
+      submit_btn = document.querySelector('.block6-form .form-btn');
 
 
 submit_btn.addEventListener('click', () => {
@@ -36,17 +35,3 @@ function checkInputs() {
         user_phone.nextElementSibling.classList.add('success');
     }
 }
-
-
-// validate
-function setErrorFor(input, border) {
-    input.style.border = border
-    input.parentElement.children[2].classList.add('error');
-    input.parentElement.children[2].classList.remove('success');
-}
-    
-function setSuccesFor(input) {
-    input.style.border = `2px solid #34ADC2`;
-    input.parentElement.children[2].classList.add('success');
-    input.parentElement.children[2].classList.remove('error');
-}  

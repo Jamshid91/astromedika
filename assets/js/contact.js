@@ -3,8 +3,7 @@ const user_name = document.getElementById('fio'),
       user_phone = document.getElementById('phone-email'),
       company = document.getElementById('company'),
       message = document.getElementById('message'),
-      submit_btn = document.querySelector('.block9-form .form-btn'),
-      popUpThank = document.querySelector('.popUp-thanks');
+      submit_btn = document.querySelector('.block9-form .form-btn');
 
 
 submit_btn.addEventListener('click', () => {
