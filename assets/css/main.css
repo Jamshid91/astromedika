@@ -575,6 +575,12 @@ main .block1 .swiper-block1 .block1-item .item-img {
   width: 50%;
   object-fit: contain;
 }
+main .block1 .swiper-block1 .item2 {
+  background-image: linear-gradient(to right, #1ba6be, #23a8bf, #29aac0, #2fabc1, #34adc2);
+}
+main .block1 .swiper-block1 .item3 {
+  background-image: linear-gradient(to right, #750d59, #8b1d6c, #a12c80, #b83a94, #cf48a9);
+}
 main .block1 .swiper-block1 .swiper-btns {
   position: absolute;
   left: 55px;
