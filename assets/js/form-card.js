@@ -10,6 +10,7 @@ const userName = document.getElementById('fio'),
 requestBtn.forEach(btn => {
     btn.addEventListener('click', () => {
         popUpForm.classList.remove('d-none')
+        body.classList.add('bodyStopScroll');
     })
 });
 
