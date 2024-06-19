@@ -506,6 +506,9 @@ header .header-menu .header-box {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 57px;
 }
+header .header-menu .header-box .header-item {
+  cursor: pointer;
+}
 header .header-menu .header-box .header-item .item-img {
   width: 58px;
   height: 58px;
@@ -914,26 +917,13 @@ main .block4_products {
 main .block4_products .filters-head {
   margin: 35px 0;
 }
-main .block4_products .filters-head .tab-btns .tab-btn {
+main .block4_products .filters-head .filters-btns .filters-btn {
   margin-right: 6px;
   white-space: nowrap;
-  cursor: pointer;
-}
-main .block4_products .filters-head .tab-btns .tab-btn:last-child {
-  margin-right: 0;
-}
-main .block4_products .filters-head .tab-btns .tab-btn input {
-  display: none;
-}
-main .block4_products .filters-head .tab-btns .tab-btn input:checked ~ span {
-  color: #fff;
-  border-color: #fff;
-  background: #52B7CB;
-}
-main .block4_products .filters-head .tab-btns .tab-btn span {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   padding: 12px 24px;
   border: 1px solid #E0E4EB;
   font-size: 14px;
@@ -941,11 +931,20 @@ main .block4_products .filters-head .tab-btns .tab-btn span {
   font-weight: 600;
   color: #334E59;
   border-radius: 50px;
+  margin-right: 12px;
 }
-main .block4_products .filters-head .tab-btns .tab-btn:nth-child(2) input:checked ~ span {
+main .block4_products .filters-head .filters-btns .filters-btn:last-child {
+  margin-right: 0;
+}
+main .block4_products .filters-head .filters-btns .filters-btn.active {
+  color: #fff;
+  border-color: #fff;
+  background: #52B7CB;
+}
+main .block4_products .filters-head .filters-btns .filters-btn.active:nth-child(2) {
   background: #750D59;
 }
-main .block4_products .filters-head .tab-btns .tab-btn:nth-child(3) input:checked ~ span {
+main .block4_products .filters-head .filters-btns .filters-btn.active:nth-child(3) {
   background: #5B8F21;
 }
 main .block4_products .filters-head .sorting {
@@ -1863,7 +1862,7 @@ footer .footer-bottom a:first-child {
     left: 0;
     display: none;
   }
-  main .block4_products .filters-head .tab-btns {
+  main .block4_products .filters-head .filters-btns {
     overflow-x: scroll;
   }
   main .block4_products .head-info {

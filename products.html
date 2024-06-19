@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-
     <header>
         <div class="header-top">
             <div class="container">
@@ -20,9 +19,9 @@
                                 <img src="assets/img/png/logo.png" alt="" class="logo-img">
                             </a>
                             <ul class="header-nav d-none d-lg-flex">
-                                <li class="active"><a href="#">Главная</a></li>
-                                <li><a href="#">О компании</a></li>
-                                <li><a href="#">Контакты</a></li>
+                                <li><a href="./index.html">Главная</a></li>
+                                <li><a href="./company.html">О компании</a></li>
+                                <li><a href="./contact.html">Контакты</a></li>
                             </ul>
                             <div class="header-search">
                                 <div class="position-relative">
@@ -119,36 +118,46 @@
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center flex-wrap">
                         <ul class="header-nav d-lg-none text-center">
-                            <li class="active"><a href="#">Главная</a></li>
-                            <li><a href="#">О компании</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li><a href="./index.html">Главная</a></li>
+                            <li><a href="./company.html">О компании</a></li>
+                            <li><a href="./contact.html">Контакты</a></li>
                         </ul>
                         <div class="header-box">
-                            <div class="header-item d-flex align-items-center text-center flex-column justify-content-between">
-                                <div class="item-img">
-                                    <img src="assets/img/png/i1.png" alt="">
+                            <div class="header-item position-relative">
+                                <a href="./catalog2.html" class="position-absolute top-0 start-0 w-100 h-100"></a>
+                                <div class="d-flex align-items-center text-center flex-column justify-content-between">
+                                    <div class="item-img">
+                                        <img src="assets/img/png/i1.png" alt="">
+                                    </div>
+                                    <p class="item-text">Оснащение ПИТ <br> и операционных</p>
                                 </div>
-                                    <a href="#" class="item-text">Оснащение ПИТ <br> и операционных</a>
                             </div>
-                            <div class="header-item d-flex align-items-center text-center flex-column justify-content-between">
-                                <div class="item-img">
-                                    <img src="assets/img/png/i2.png" alt="">
+                            <div class="header-item position-relative">
+                                <a href="./catalog.html" class="position-absolute top-0 start-0 w-100 h-100"></a>
+                                <div class="d-flex align-items-center text-center flex-column justify-content-between">
+                                    <div class="item-img">
+                                        <img src="assets/img/png/i2.png" alt="">
+                                    </div>
+                                    <p class="item-text">Комплектующие <br>  для диагностики</p>
                                 </div>
-                                    <a href="#" class="item-text">Комплектующие <br>
-                                        для диагностики</a>
                             </div>
-                            <div class="header-item d-flex align-items-center text-center flex-column justify-content-between">
-                                <div class="item-img">
-                                    <img src="assets/img/png/i3.png" alt="">
+                            <div class="header-item position-relative">
+                                <a href="./products2.html" class="position-absolute top-0 start-0 w-100 h-100"></a>
+                                <div class="d-flex align-items-center text-center flex-column justify-content-between">
+                                    <div class="item-img">
+                                        <img src="assets/img/png/i3.png" alt="">
+                                    </div>
+                                    <p class="item-text">Ультразвуковые <br> системы и датчики</p>
                                 </div>
-                                    <a href="#" class="item-text">Ультразвуковые <br> системы и датчики</a>
                             </div>
-                            <div class="header-item d-flex align-items-center text-center flex-column justify-content-between">
-                                <div class="item-img">
-                                    <img src="assets/img/png/i4.png" alt="">
+                            <div class="header-item position-relative">
+                                <a href="./products3.html" class="position-absolute top-0 start-0 w-100 h-100"></a>
+                                <div class="d-flex align-items-center text-center flex-column justify-content-between">
+                                    <div class="item-img">
+                                        <img src="assets/img/png/i4.png" alt="">
+                                    </div>
+                                    <p class="item-text">Оборудование <br>для ветеринарии</p>
                                 </div>
-                                    <a href="#" class="item-text">Оборудование <br>
-                                        для ветеринарии</a>
                             </div>
                         </div>
                         <button class="connect-us d-lg-none">
@@ -188,30 +197,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h1 class="products-base title-base gradient">Все товары</h1>
-                        <div class="">
-                            <h1 class="title-base gradient products-filter tab_1">Оснащение ПИТ и операционных</h1>
-                            <h1 class="title-base gradient products-filter tab_2">Ультразвуковые системы и датчики</h1>
-                            <h1 class="title-base gradient products-filter tab_3">Оборудование для ветеринарии</h1>
-                        </div>
+                        <h1 class="title-base gradient">Все товары</h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
                         <div class="filters-head d-flex justify-content-between align-items-lg-center flex-column flex-lg-row">
-                            <div class="tab-btns d-flex">
-                                <label for="tab1" class="tab-btn" data-tab="tab_1">
-                                    <input type="radio" id="tab1" value="Оснащение ПИТ и операционных" name="tab">
-                                    <span>Оснащение ПИТ <br> и операционных</span>
-                                </label>
-                                <label for="tab2" class="tab-btn" data-tab="tab_2">
-                                    <input type="radio" id="tab2" value="Ультразвуковые системы и датчики" name="tab">
-                                    <span>Ультразвуковые <br> системы и датчики</span>
-                                </label>
-                                <label for="tab3" class="tab-btn" data-tab="tab_3">
-                                    <input type="radio" id="tab3" value="Оборудование для ветеринарии" name="tab">
-                                    <span>Оборудование <br> для ветеринарии</span>
-                                </label>
+                            <div class="filters-btns d-flex">
+                                <a href="./products1.html" class="filters-btn">
+                                    Оснащение ПИТ <br> и операционных
+                                </a>
+                                <a href="./products2.html" class="filters-btn">
+                                    Ультразвуковые <br> системы и датчики
+                                </a>
+                                <a href="./products3.html" class="filters-btn">
+                                    Оборудование <br> для ветеринарии
+                                </a>
                             </div>
                             <div class="head-info d-flex justify-content-between align-items-center">
                                 <div class="filter-btn d-lg-none">
@@ -242,7 +243,7 @@
                     <div class="col-12 d-flex align-items-start">
                         <div class="filters">
                             <p class="filters-title">Фильтр</p>
-                            <ul class="products-base filters-base">
+                            <ul class="filters-item">
                                 <li class="check-box">
                                     <input type="checkbox" id="base1" value="Наркозно-дыхательные аппараты" class="check__inp">
                                     <label for="base1">Наркозно-дыхательные аппараты</label>
@@ -296,150 +297,15 @@
                                     <label for="base13">Датчики</label>
                                 </li>
                             </ul>
-
-                            <div class="filter-tabs">
-                                <div class="filter-tab products-filter tab_1">
-                                    <p class="tab-title">Категория</p>
-                                    <ul class="filters-item">
-                                        <li class="check-box d-block">
-                                            <div class="d-flex align-items-center">
-                                                <input type="checkbox" id="k1" value="Медицинские консоли" class="check__inp">
-                                                <label for="k1">Медицинские консоли</label>
-                                            </div>
-                                            <div class="filter-sub d-none">
-                                                <p class="tab-subtitle">Тип оборудования</p>
-                                                <ul>
-                                                    <li class="check-box">
-                                                        <input type="checkbox" id="ka1" value="Медицинские Потолочные консоли" class="check__inp">
-                                                        <label for="ka1">Медицинские Потолочные консоли</label>
-                                                    </li>
-                                                    <li class="check-box">
-                                                        <input type="checkbox" id="ka2" value="Медицинские Настенные консоли" class="check__inp">
-                                                        <label for="ka2">Медицинские Настенные консоли</label>
-                                                    </li>
-                                                    <li class="check-box">
-                                                        <input type="checkbox" id="ka3" value="Детские Медицинские  консоли" class="check__inp">
-                                                        <label for="ka3">Детские Медицинские  консоли</label>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="check-box d-block">
-                                            <div class="d-flex align-items-center">
-                                                <input type="checkbox" id="k2" value="Медицинские светильники" class="check__inp">
-                                                <label for="k2">Медицинские светильники</label>
-                                            </div>
-                                            <div class="filter-sub d-none">
-                                                <p class="tab-subtitle">Тип оборудования</p>
-                                                <ul>
-                                                    <li class="check-box">
-                                                        <input type="checkbox" id="kb1" value="Потолочные светильники" class="check__inp">
-                                                        <label for="kb1">Потолочные светильники</label>
-                                                    </li>
-                                                    <li class="check-box">
-                                                        <input type="checkbox" id="kb2" value="Настенные светильники" class="check__inp">
-                                                        <label for="kb2">Настенные светильники</label>
-                                                    </li>
-                                                    <li class="check-box">
-                                                        <input type="checkbox" id="kb3" value="Мобильные светильники" class="check__inp">
-                                                        <label for="kb3">Мобильные светильники</label>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="check-box">
-                                            <div class="d-flex align-items-center">
-                                                <input type="checkbox" id="k3" value="Столы хирургические" class="check__inp">
-                                                <label for="k3">Столы хирургические</label>
-                                            </div>
-                                        </li>
-                                        <li class="check-box">
-                                            <div class="d-flex align-items-center">
-                                                <input type="checkbox" id="k4" value="Кровати реанимационные" class="check__inp">
-                                            <label for="k4">Кровати реанимационные</label>
-                                            </div>
-                                        </li>
-                                        <li class="check-box d-block">
-                                            <div class="d-flex align-items-center">
-                                                <input type="checkbox" id="k5" value="Крепления для систем жизнеобеспечения" class="check__inp">
-                                                <label for="k5">Крепления для систем жизнеобеспечения</label>
-                                            </div>
-                                            <div class="filter-sub d-none">
-                                                <p class="tab-subtitle">Тип оборудования</p>
-                                                <ul>
-                                                    <li class="check-box">
-                                                        <input type="checkbox" id="kd1" value="Крепления для мониторов пациента" class="check__inp">
-                                                        <label for="kd1">Крепления для мониторов пациента</label>
-                                                    </li>
-                                                    <li class="check-box">
-                                                        <input type="checkbox" id="kd2" value="Тележки для ЭКГ – аппаратов" class="check__inp">
-                                                        <label for="kd2">Тележки для ЭКГ – аппаратов</label>
-                                                    </li>
-                                                    <li class="check-box">
-                                                        <input type="checkbox" id="kd3" value="Тележки для портативных узи-аппаратов" class="check__inp">
-                                                        <label for="kd3">Тележки для портативных узи-аппаратов</label>
-                                                    </li>
-                                                    <li class="check-box">
-                                                        <input type="checkbox" id="kd4" value="Тележки для компьютеров, ноутбуков и планшетов" class="check__inp">
-                                                        <label for="kd4">Тележки для компьютеров, ноутбуков и планшетов</label>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="filter-tab products-filter tab_2">
-                                    <p class="tab-title">Категория</p>
-                                    <ul class="filters-item">
-                                        <li class="check-box">
-                                            <input type="checkbox" id="b1" value="Ультразвуковые системы" class="check__inp">
-                                            <label for="b1">Ультразвуковые системы</label>
-                                        </li>
-                                        <li class="check-box">
-                                            <input type="checkbox" id="b2" value="Датчики" class="check__inp">
-                                            <label for="b2">Датчики</label>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="filter-tab products-filter tab_3">
-                                    <p class="tab-title">Тип оборудования</p>
-                                    <ul class="filters-item">
-                                        <li class="check-box">
-                                            <input type="checkbox" id="c1" value="Наркозно-дыхательные аппараты" class="check__inp">
-                                            <label for="c1">Наркозно-дыхательные аппараты</label>
-                                        </li>
-                                        <li class="check-box">
-                                            <input type="checkbox" id="c2" value="Амагнитные ИВЛ" class="check__inp">
-                                            <label for="c2">Амагнитные ИВЛ</label>
-                                        </li>
-                                        <li class="check-box">
-                                            <input type="checkbox" id="c3" value="Мониторы " class="check__inp">
-                                            <label for="c3">Мониторы </label>
-                                        </li>
-                                        <li class="check-box">
-                                            <input type="checkbox" id="c4" value="Инфузоматы" class="check__inp">
-                                            <label for="c4">Инфузоматы</label>
-                                        </li>
-                                        <li class="check-box">
-                                            <input type="checkbox" id="c5" value="Дефибрилляторы" class="check__inp">
-                                            <label for="c5">Дефибрилляторы</label>
-                                        </li>
-                                        <li class="check-box">
-                                            <input type="checkbox" id="c6" value="УЗИ" class="check__inp">
-                                            <label for="c6">УЗИ</label>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
-                        <div class="products-box products-base">
+                        <div class="products-box">
                             <div class="block4-card">
                                 <div class="d-flex flex-sm-column align-items-sm-center">
-                                    <a href="#" class="d-flex justify-content-center">
+                                    <a href="./card.html" class="d-flex justify-content-center">
                                         <img src="assets/img/png/p1.png" alt="" class="card-img">
                                     </a>
                                     <div class="">
-                                        <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
+                                        <a href="./card.html" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
                                         <div class="status">
                                             <img src="assets/img/svg/check-m.svg" alt="">
                                             <span>В наличии</span>
@@ -465,11 +331,11 @@
                             </div>
                             <div class="block4-card">
                                 <div class="d-flex flex-sm-column align-items-sm-center">
-                                    <a href="#" class="d-flex justify-content-center">
+                                    <a href="./card.html" class="d-flex justify-content-center">
                                         <img src="assets/img/png/p1.png" alt="" class="card-img">
                                     </a>
                                     <div class="">
-                                        <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
+                                        <a href="./card.html" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
                                         <div class="status">
                                             <img src="assets/img/svg/check-m.svg" alt="">
                                             <span>В наличии</span>
@@ -495,11 +361,11 @@
                             </div>
                             <div class="block4-card">
                                 <div class="d-flex flex-sm-column align-items-sm-center">
-                                    <a href="#" class="d-flex justify-content-center">
+                                    <a href="./card.html" class="d-flex justify-content-center">
                                         <img src="assets/img/png/p1.png" alt="" class="card-img">
                                     </a>
                                     <div class="">
-                                        <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
+                                        <a href="./card.html" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
                                         <div class="status">
                                             <img src="assets/img/svg/check-m.svg" alt="">
                                             <span>В наличии</span>
@@ -525,11 +391,11 @@
                             </div>
                             <div class="block4-card">
                                 <div class="d-flex flex-sm-column align-items-sm-center">
-                                    <a href="#" class="d-flex justify-content-center">
+                                    <a href="./card.html" class="d-flex justify-content-center">
                                         <img src="assets/img/png/p1.png" alt="" class="card-img">
                                     </a>
                                     <div class="">
-                                        <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
+                                        <a href="./card.html" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
                                         <div class="status">
                                             <img src="assets/img/svg/check-m.svg" alt="">
                                             <span>В наличии</span>
@@ -555,11 +421,11 @@
                             </div>
                             <div class="block4-card">
                                 <div class="d-flex flex-sm-column align-items-sm-center">
-                                    <a href="#" class="d-flex justify-content-center">
+                                    <a href="./card.html" class="d-flex justify-content-center">
                                         <img src="assets/img/png/p1.png" alt="" class="card-img">
                                     </a>
                                     <div class="">
-                                        <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
+                                        <a href="./card.html" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
                                         <div class="status">
                                             <img src="assets/img/svg/check-m.svg" alt="">
                                             <span>В наличии</span>
@@ -585,11 +451,11 @@
                             </div>
                             <div class="block4-card">
                                 <div class="d-flex flex-sm-column align-items-sm-center">
-                                    <a href="#" class="d-flex justify-content-center">
+                                    <a href="./card.html" class="d-flex justify-content-center">
                                         <img src="assets/img/png/p1.png" alt="" class="card-img">
                                     </a>
                                     <div class="">
-                                        <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
+                                        <a href="./card.html" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
                                         <div class="status">
                                             <img src="assets/img/svg/check-m.svg" alt="">
                                             <span>В наличии</span>
@@ -612,614 +478,6 @@
                                         </svg>
                                     </span>
                                 </button>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="products-box products-filter tab_1">
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="products-box products-filter tab_2">
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="products-box products-filter tab_3">
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат Philips Affiniti 50</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
-                                <div class="block4-card">
-                                    <div class="d-flex flex-sm-column align-items-sm-center">
-                                        <a href="#" class="d-flex justify-content-center">
-                                            <img src="assets/img/png/p1.png" alt="" class="card-img">
-                                        </a>
-                                        <div class="">
-                                            <a href="#" class="card-name">УЗИ аппарат General Electric Logiq S8</a>
-                                            <div class="status">
-                                                <img src="assets/img/svg/check-m.svg" alt="">
-                                                <span>В наличии</span>
-                                            </div>
-                                            <div class="card-info">
-                                                <p class="info-text">Ультразвуковая система LOGIQ S8 XDclear обеспечивает превосходное качество изображений: от рутинных случаев до технически сложных. Система предназначена для широкого диапазона ультразвуковой диагностики.</p>
-                                                <button class="info-btn">
-                                                    <span>Читать еще</span>
-                                                    <img src="assets/img/svg/down.svg" alt="">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                                    <button class="request-price">
-                                        <span>Запросить цену</span>
-                                        <span class="arrow">
-                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.47588 8.624C2.47588 8.24 2.51854 7.888 2.60388 7.568C2.69988 7.248 2.84388 6.96 3.03588 6.704C3.23854 6.43733 3.49988 6.20267 3.81988 6C4.01188 5.872 4.23054 5.73867 4.47588 5.6C4.73188 5.46133 4.97188 5.30133 5.19588 5.12C5.43054 4.928 5.62254 4.704 5.77188 4.448C5.92121 4.18133 5.99588 3.86667 5.99588 3.504C5.99588 3.09867 5.89988 2.76267 5.70788 2.496C5.52654 2.21867 5.28654 2.01067 4.98788 1.872C4.68921 1.73333 4.36921 1.664 4.02788 1.664C3.67588 1.664 3.34521 1.73333 3.03588 1.872C2.72654 2.01067 2.45454 2.19733 2.21988 2.432C1.99588 2.656 1.80921 2.90667 1.65988 3.184L0.715875 2.56C0.907875 2.12267 1.17454 1.74933 1.51588 1.44C1.86788 1.13067 2.26254 0.896 2.69988 0.735999C3.13721 0.575999 3.59054 0.495999 4.05988 0.495999C4.45454 0.495999 4.83854 0.559999 5.21188 0.688C5.59588 0.805333 5.93721 0.991999 6.23588 1.248C6.54521 1.504 6.79054 1.824 6.97188 2.208C7.15321 2.592 7.24388 3.04533 7.24388 3.568C7.24388 3.97333 7.19054 4.32 7.08388 4.608C6.97721 4.896 6.82788 5.14667 6.63588 5.36C6.45454 5.57333 6.24121 5.76 5.99588 5.92C5.75054 6.08 5.49454 6.23467 5.22788 6.384C4.97188 6.52267 4.72121 6.67733 4.47588 6.848C4.24121 7.01867 4.04388 7.24267 3.88388 7.52C3.73454 7.78667 3.65988 8.15467 3.65988 8.624H2.47588ZM2.50788 12V10.144H3.69188V12H2.50788Z" fill="#0AA5BA"/>
-                                            </svg>
-                                        </span>
-                                    </button>
-                                </div>
                             </div>
                         </div>
                     </div>

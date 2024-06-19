@@ -453,6 +453,7 @@ header {
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 57px;
       .header-item {
+        cursor: pointer;
         .item-img {
           width: 58px;
           height: 58px;
@@ -895,44 +896,36 @@ main {
     padding: 40px 0 55px;
     .filters-head {
       margin: 35px 0;
-      .tab-btns {
-        .tab-btn {
+      .filters-btns {
+        .filters-btn {
           margin-right: 6px;
           white-space: nowrap;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           cursor: pointer;
-          &:last-child {
-            margin-right: 0;
-          }
-          input {
-            display: none;
-            &:checked ~ span {
-              color: #fff;
-              border-color: #fff;
-              background: #52B7CB;
-            }
-          }
-          span {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 12px 24px;
+          padding: 12px 24px;
             border: 1px solid #E0E4EB;
             font-size: 14px;
             line-height: 15px;
             font-weight: 600;
             color: #334E59;
             border-radius: 50px;
+            margin-right: 12px;
+          &:last-child {
+            margin-right: 0;
           }
-          &:nth-child(2) {
-            input:checked ~ span {
-              background: #750D59;
-            }
-          }
-          &:nth-child(3) {
-            input:checked ~ span {
-              background: #5B8F21;
-            }
-          }
+        }
+        .filters-btn.active {
+          color: #fff;
+          border-color: #fff;
+          background: #52B7CB;
+        }
+        .filters-btn.active:nth-child(2) {
+          background: #750D59;
+        }
+        .filters-btn.active:nth-child(3) {
+          background: #5B8F21;
         }
       }
 

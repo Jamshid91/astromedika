@@ -32,21 +32,16 @@ checks.forEach(check => {
             return ch = 1;
         } else {
             check.parentElement.nextElementSibling.classList.add('d-none');
-            // check.parentElement.parentElement.parentElement.classList.remove('maxHeight')
             return ch = 0;
         }
-    })
-});
+    });
 
-
-$(document).ready(function() {
-    $('.products-filter').hide();
-    $('.tab-btn').click(function() {
-    $('.products-base').addClass('d-none')
-      let pageInfo = $(this).attr('data-tab');
-      $('.products-filter').hide();
-      $('.' + pageInfo).show();
-    })
+    if(check.setAttribute('checked') = true) {
+        check.parentElement.nextElementSibling.classList.remove('d-none');
+        check.parentElement.parentElement.parentElement.classList.add('maxHeight')
+    }else {
+        check.parentElement.nextElementSibling.classList.add('d-none');
+    }
 });
 
 
