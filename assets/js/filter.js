@@ -1,6 +1,5 @@
 const sortBtn = document.querySelector('.sorting-head');
 const sortOptions = document.querySelectorAll('.sorting-options li');
-const checks = document.querySelectorAll('.filter-tabs .check__inp');
 const filterBtn = document.querySelector('.filter-btn');
 const filter = document.querySelector('.filters');
 
@@ -23,6 +22,7 @@ sortOptions.forEach(sort => {
     })
 });
 
+const checks = document.querySelectorAll('.filter-tabs .check__inp');
 checks.forEach(check => {
     let ch = 0;
     check.addEventListener('change', () => {
@@ -35,13 +35,6 @@ checks.forEach(check => {
             return ch = 0;
         }
     });
-
-    if(check.setAttribute('checked') = true) {
-        check.parentElement.nextElementSibling.classList.remove('d-none');
-        check.parentElement.parentElement.parentElement.classList.add('maxHeight')
-    }else {
-        check.parentElement.nextElementSibling.classList.add('d-none');
-    }
 });
 
 
