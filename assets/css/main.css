@@ -768,6 +768,9 @@ main .block3 .block3-item:nth-child(3) .block3-card .card-img {
   width: 230px;
   top: 59px;
 }
+main .block3 .block3-item:nth-child(3) .block3-card .card-head {
+  background: #2D7AC2;
+}
 main .block4 {
   background: #1361A9;
   margin-top: -1px;
