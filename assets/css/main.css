@@ -299,7 +299,7 @@ input, textarea, select, button,
 }
 
 .title-suptext {
-  font-size: 58px;
+  font-size: 45px;
   line-height: 64px;
   font-weight: 500;
   color: #2B3340;
@@ -320,8 +320,8 @@ input, textarea, select, button,
 }
 
 .title-base {
-  font-size: 28px;
-  line-height: 31px;
+  font-size: 26px;
+  line-height: 29px;
   font-weight: 500;
 }
 
@@ -498,8 +498,7 @@ header .header-search .showSearch {
   }
 }
 header .header-menu {
-  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.2);
-  padding: 21px 0 23px;
+  padding: 21px 0 0;
 }
 header .header-menu .header-box {
   display: grid;
@@ -513,7 +512,7 @@ header .header-menu .header-box .header-item .item-img {
   width: 58px;
   height: 58px;
   border-radius: 50%;
-  background: #F8F8F8;
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -535,6 +534,12 @@ header .clickedBtn svg:last-child {
 
 .single-product-cover .img-responsive {
   max-width: 266px !important;
+}
+
+.swiper-btns .prev,
+.swiper-btns .next {
+  bottom: none !important;
+  outline: none !important;
 }
 
 main .block1 {
@@ -665,10 +670,11 @@ main .block2 .item .item-box {
   margin-top: 30px;
 }
 main .block3 {
-  background: #1361A9;
-  padding: 50px 0 146px;
-  border-radius: 50px 50px 0 0;
   color: #fff;
+}
+main .block3 .box-bg {
+  background: #1361A9;
+  padding: 50px 24px 75px;
 }
 main .block3 .block3-head svg {
   min-width: 13px;
@@ -689,7 +695,7 @@ main .block3 .block3-card {
   position: relative;
   display: flex;
   align-items: end;
-  padding: 29px;
+  padding: 20px 17px;
   color: #495363;
 }
 main .block3 .block3-card .card-img {
@@ -735,25 +741,25 @@ main .block3 .block3-item {
   width: 30%;
 }
 main .block3 .block3-item:nth-child(1) .block3-card {
-  height: 390px;
+  height: 299px;
 }
 main .block3 .block3-item:nth-child(1) .block3-card .card-img {
-  width: 142px;
-  top: 92px;
+  width: 88px;
+  top: 60px;
 }
 main .block3 .block3-item:nth-child(2) .block3-card {
-  height: 264px;
+  height: 206px;
 }
 main .block3 .block3-item:nth-child(2) .block3-card:first-child .card-img {
-  width: 108px;
-  top: 83px;
+  width: 80px;
+  top: 67px;
 }
 main .block3 .block3-item:nth-child(2) .block3-card:first-child .card-head {
   background: #750D59;
 }
 main .block3 .block3-item:nth-child(2) .block3-card:last-child .card-img {
-  width: 75px;
-  top: 80px;
+  width: 60px;
+  top: 66px;
 }
 main .block3 .block3-item:nth-child(2) .block3-card:last-child .card-head {
   background: #5B8F21;
@@ -762,23 +768,26 @@ main .block3 .block3-item:nth-child(3) {
   width: 37%;
 }
 main .block3 .block3-item:nth-child(3) .block3-card {
-  height: 554px;
+  height: 447px;
 }
 main .block3 .block3-item:nth-child(3) .block3-card .card-img {
-  width: 230px;
-  top: 59px;
+  width: 141px;
+  top: 74px;
 }
 main .block3 .block3-item:nth-child(3) .block3-card .card-head {
   background: #2D7AC2;
 }
 main .block4 {
-  background: #1361A9;
   margin-top: -1px;
   padding-bottom: 1px;
 }
 main .block4 .title-text {
   color: #fff;
   margin-bottom: 45px;
+}
+main .block4 .box-bg {
+  background: #1361A9;
+  padding: 0 24px;
 }
 main .block4 .block4-card {
   background: #fff;
@@ -855,10 +864,12 @@ main .block4 .block4-card .request-price {
   margin-top: 20px;
 }
 main .block5 {
-  background: #1361A9;
-  padding: 150px 0 100px;
   margin-top: -1px;
   color: #fff;
+}
+main .block5 .box-bg {
+  background: #1361A9;
+  padding: 75px 24px;
 }
 main .block5 .title-text {
   width: 35%;
@@ -876,10 +887,13 @@ main .block5 .block5-item .item-title {
   margin: 4px 0 16px;
 }
 main .block5 .block5-item .item-title span {
-  color: #5FBBFF;
+  color: #5B8F21;
 }
 main .block5 .block5-item:nth-child(2) .item-title span {
-  color: #E889CE;
+  color: #34ADC2;
+}
+main .block5 .block5-item:nth-child(3) .item-title span {
+  color: #750D59;
 }
 main .block5 .block5-item .item-text {
   font-size: 14px;
@@ -1050,22 +1064,22 @@ main .block4_card {
 }
 main .block7 .block7-box {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 24px;
   margin: 40px 0 68px;
 }
 main .block7 .block7-card {
   width: 100%;
-  height: 390px;
+  height: 187px;
   border-radius: 30px;
-  padding: 27px;
+  padding: 14px 16px 19px;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
   position: relative;
-  font-size: 28px;
-  line-height: 31px;
+  font-size: 18px;
+  line-height: 20px;
   font-weight: 500;
   color: #fff;
 }
@@ -1075,8 +1089,8 @@ main .block7 .block7-card .arrow {
   height: 43px;
   border-radius: 50%;
   background: #fff;
-  top: 22px;
-  right: 22px;
+  top: 14px;
+  right: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1086,13 +1100,14 @@ main .block7 .block7-card .arrow:hover svg path {
 }
 main .block7 .block7-card .block7-png {
   mix-blend-mode: lighten;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 main .block7 .block7-card:last-child .block7-png {
-  width: 123px;
-  height: 123px;
+  width: 44px;
 }
 main .block5_comp {
-  border-radius: 50px 50px 0 0;
   padding: 80px 0;
 }
 main .block8 {
@@ -1630,6 +1645,9 @@ footer .footer-bottom a:first-child {
     width: 180px;
     top: 92px;
   }
+  main .block7 .block7-box {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 @media (max-width: 1199px) {
   main .block3 {
@@ -1723,6 +1741,13 @@ footer .footer-bottom a:first-child {
 @media (max-width: 1023px) {
   main .block7 .block7-box {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 12px;
+  }
+  main .block7 .block7-card:last-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
   }
   .popUp-form .popUp-content {
     max-width: 97%;
@@ -1734,8 +1759,8 @@ footer .footer-bottom a:first-child {
     line-height: 18px;
   }
   .title-suptext {
-    font-size: 28px;
-    line-height: 31px;
+    font-size: 24px;
+    line-height: 26px;
   }
   .title-text {
     font-size: 24px;
@@ -1992,27 +2017,13 @@ footer .footer-bottom a:first-child {
     grid-template-columns: repeat(1, 1fr);
   }
   main .block7 .block7-box {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 20px;
     margin: 24px 0 28px;
   }
   main .block7 .block7-card {
-    height: 292px;
-    padding: 25px;
-    font-size: 20px;
-    line-height: 22px;
-  }
-  main .block7 .block7-card .arrow {
-    top: 20px;
-    right: 20px;
-  }
-  main .block7 .block7-card .block7-png {
-    width: 106px;
-    height: 106px;
-  }
-  main .block7 .block7-card:last-child .block7-png {
-    width: 93px;
-    height: 93px;
+    height: 142px;
+    padding: 14px 5px 14px 14px;
+    font-size: 16px;
+    line-height: 18px;
   }
   main .block2_comp {
     margin: 80px 0 30px;
@@ -2059,7 +2070,6 @@ footer .footer-bottom a:first-child {
 @media (max-width: 576px) {
   main .block3 {
     padding-top: 30px;
-    border-radius: 30px 30px 0 0;
   }
   main .block3 .block3-head {
     font-size: 12px;
@@ -2127,9 +2137,23 @@ footer .footer-bottom a:first-child {
   main .block4_results .results-box {
     grid-gap: 10px;
   }
+  main .block3,
+  main .block4,
+  main .block5 {
+    background: #1361A9;
+  }
+  main .block3 .box-bg,
+  main .block4 .box-bg,
+  main .block5 .box-bg {
+    padding: 0;
+  }
   main .block4_products .products-box {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
+  }
+  main .block5_comp {
+    padding: 40px 0;
+    margin-bottom: 30px;
   }
   main .card-page .container {
     padding-right: 0;

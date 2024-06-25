@@ -55,6 +55,12 @@
         }
       }
     }
+
+    .block7 {
+      .block7-box {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
   }
 }
 
@@ -195,6 +201,13 @@
     .block7 {
       .block7-box {
         grid-template-columns: repeat(2, 1fr);
+        grid-gap: 12px;
+      }
+      .block7-card:last-child {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 4;
       }
     }
   }
@@ -211,8 +224,8 @@
     line-height: 18px;
   }
   .title-suptext {
-    font-size: 28px;
-    line-height: 31px;
+    font-size: 24px;
+    line-height: 26px;
   }
   .title-text {
     font-size: 24px;
@@ -336,6 +349,8 @@
         }
       }
     }
+
+
 
     .block4_results {
       .results-box {
@@ -501,29 +516,13 @@
 
     .block7 {
       .block7-box {
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 20px;
         margin: 24px 0 28px;
       }
       .block7-card {
-        height: 292px;
-        padding: 25px;
-        font-size: 20px;
-        line-height: 22px;
-        .arrow {
-          top: 20px;
-          right: 20px;
-        }
-        .block7-png {
-          width: 106px;
-          height: 106px;
-        }
-        &:last-child {
-          .block7-png {
-            width: 93px;
-            height: 93px;
-          }
-        }
+        height: 142px;
+        padding: 14px 5px 14px 14px;
+        font-size: 16px;
+        line-height: 18px;
       }
     }
 
@@ -578,7 +577,6 @@
   main {
     .block3 {
       padding-top: 30px;
-      border-radius: 30px 30px 0 0;
       .block3-head {
         font-size: 12px;
         line-height: 13px;
@@ -652,11 +650,25 @@
       }
     }
 
+    .block3,
+    .block4,
+    .block5 {
+      background: #1361A9;
+      .box-bg {
+        padding: 0;
+      }
+    }
+
     .block4_products {
       .products-box {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 10px;
       }
+    }
+
+    .block5_comp {
+      padding: 40px 0;
+      margin-bottom: 30px;
     }
 
     .card-page {
