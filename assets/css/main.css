@@ -1150,7 +1150,7 @@ main .block9 {
   margin: 55px 0 95px;
 }
 main .block9 .title-suptext {
-  margin-bottom: 70px;
+  margin-bottom: 53px;
 }
 main .block9 .title-text {
   margin-top: 150px;
@@ -1746,6 +1746,12 @@ footer .footer-bottom a:first-child {
   main .block7 .block7-card:last-child {
     grid-column-start: 1;
     grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+  main .block7_l .block7-card:last-child {
+    grid-column-start: 1;
+    grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 4;
   }

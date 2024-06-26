@@ -210,6 +210,14 @@
         grid-row-end: 4;
       }
     }
+    .block7_l {
+      .block7-card:last-child {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+      }
+    }
   }
   .popUp-form {
     .popUp-content {
