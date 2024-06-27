@@ -322,6 +322,9 @@ header {
     display: inline-block;
     position: relative;
     z-index: 100;
+    img {
+      width: 264px;
+    }
   }
   .header-nav {
     li {
