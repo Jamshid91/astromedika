@@ -1624,22 +1624,13 @@ footer .footer-bottom a:first-child {
     margin-right: 20px;
   }
   header .logo img {
-    width: 154px;
+    width: 230px;
   }
   header .header-nav li {
     margin-right: 15px;
   }
   header .header-search .search {
-    width: 270px;
-  }
-  footer .logo {
-    margin-right: 40px;
-  }
-  footer .logo img {
-    width: 193px;
-  }
-  footer .footer-item {
-    margin-right: 30px;
+    width: 370px;
   }
   main .block3 .block3-item:nth-child(1), main .block3 .block3-item:nth-child(2), main .block3 .block3-item:nth-child(3) {
     width: 32%;
@@ -1653,6 +1644,30 @@ footer .footer-bottom a:first-child {
   }
 }
 @media (max-width: 1199px) {
+  header .header-top {
+    padding: 18px 0;
+  }
+  header .logo {
+    margin-right: 20px;
+  }
+  header .logo img {
+    width: 180px;
+  }
+  header .header-nav li {
+    margin-right: 15px;
+  }
+  header .header-search .search {
+    width: 300px;
+  }
+  footer .logo {
+    margin-right: 40px;
+  }
+  footer .logo img {
+    width: 193px;
+  }
+  footer .footer-item {
+    margin-right: 30px;
+  }
   main .block3 {
     padding-bottom: 129px;
     position: relative;
