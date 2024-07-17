@@ -1107,6 +1107,10 @@ main {
           width: 44px;
         }
       }
+      &:first-child .block7-png {
+        width: auto;
+        mix-blend-mode: normal;
+      }
     }
   }
 

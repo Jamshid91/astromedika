@@ -1110,6 +1110,10 @@ main .block7 .block7-card .block7-png {
 main .block7 .block7-card:last-child .block7-png {
   width: 44px;
 }
+main .block7 .block7-card:first-child .block7-png {
+  width: auto;
+  mix-blend-mode: normal;
+}
 main .block5_comp {
   padding: 80px 0;
 }
